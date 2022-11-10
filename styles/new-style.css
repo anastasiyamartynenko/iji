@@ -436,4 +436,7 @@
   .pril-ipo-sertf {
     background-position: right -350px bottom -150px;
 }
+.content-block__img {
+  top: 75%;
+}
 }
