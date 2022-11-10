@@ -222,6 +222,9 @@
   padding-left: 4px;
   vertical-align: middle;
 }
+a:hover .arrow-top svg {
+  fill:#FF4810;
+}
 .arrow-top {
   position: absolute;
   bottom: 40px;
