@@ -228,6 +228,9 @@
   font-weight: 700;
   line-height: 22px;
 }
+a:hover .arrow-top {
+  color: #FF4810;
+}
 .ji-h4-bold {
   font-size: 35px;
   line-height: 43px;
