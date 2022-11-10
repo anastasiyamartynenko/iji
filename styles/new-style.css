@@ -80,10 +80,9 @@
 }
 .text-item-srf {
     padding-top: 18px;
-}
-.text-item-srf {
     text-align: center;
     width: 220px;
+    line-height: 27px;
 }
 .item-serf-cont .item-serf {
     background-color: white;
@@ -163,7 +162,22 @@
   color: #737C91;
   text-decoration: none;
 }
-
+/*video*/
+.video iframe {
+  border-radius: 12px;
+}
+.block-text-how {
+  font-size: 35px;
+  line-height: 42px;
+}
+.block-how {
+  padding: 70px;
+}
+.block-how ol {
+  color: #898D94;
+  padding-left: 20px;
+  padding-top: 36px;
+}
   
   @media (max-width: 1400px) {
     .services-pic {
