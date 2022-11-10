@@ -9,7 +9,7 @@ section a, section a:hover{
 }
 .ji-link:hover{
     color: #F05323;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .ji-text-orange{
     color: #F33A4A;
