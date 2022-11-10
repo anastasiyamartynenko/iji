@@ -163,8 +163,13 @@
   text-decoration: none;
 }
 /*video*/
+.video {
+  text-align: center;
+}
 .video iframe {
   border-radius: 12px;
+  width: 590px;
+  height: 336px;
 }
 .block-text-how {
   font-size: 35px;
@@ -172,11 +177,69 @@
 }
 .block-how {
   padding: 70px;
+  display: flex;
 }
 .block-how ol {
   color: #898D94;
   padding-left: 20px;
   padding-top: 36px;
+}
+.block-how ol li {
+  padding-bottom: 10px;
+}
+/*покупать и мастеркласс*/
+.buy-no {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 40px;
+}
+.content-block {
+  padding: 40px;
+    border-radius: 12px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #ffffff;
+    position: relative;
+    background-position: right 20px bottom;
+    transition: 0.3s;
+}
+.content-block__text {
+  max-width: 460px;
+}
+.content-block__img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 40%;
+  transition: 0.3s;
+}
+.arrow-top svg {
+  width: 20px;
+  height: 20px;
+  padding-left: 4px;
+  vertical-align: middle;
+}
+.arrow-top {
+  position: absolute;
+  bottom: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.ji-h4-bold {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+}
+.ji-body-xs  {
+  font-size: 21px;
+  line-height: 26px;
+}
+.content-block:hover .content-block__img img {
+  transition: 0.3s;
+  transform: scale(1.05);
 }
   
   @media (max-width: 1400px) {
@@ -227,6 +290,20 @@
     }
     .pril-ipo-sertf {
       background-position: right -300px bottom -20px;
+  }
+  .content-block-margin {
+    margin-bottom: 30px;
+  }
+  .block-how {
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+  }
+  .video {
+    padding-top: 30px;
+  }
+  .buy-no {
+    display: block;
   }
   }
   
@@ -307,6 +384,7 @@
 .item-serf-cont {
   padding-bottom: 0;
 }
+
   }
   
   @media (max-width: 590px) {
@@ -321,6 +399,27 @@
   }
   .pril-ipo-sertf {
     background-position: right -300px bottom -120px;
+}
+.block-text-how {
+  font-size: 26px;
+    line-height: 30px;
+}
+.video iframe {
+  width: 300px;
+  height: 206px;
+}
+.ji-h4-bold {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 700;
+}
+.ji-body-xs {
+  font-size: 18px;
+    line-height: 22px;
+}
+.content-block__img {
+  right: 5%;
+  top: 65%;
 }
 }
 
