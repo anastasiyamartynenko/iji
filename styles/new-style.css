@@ -1,0 +1,323 @@
+.services-section-item {
+    border-radius: 24px;
+    padding: 35px;
+    background: radial-gradient(
+          73.2% 135.36% at 74.15% 69.72%,
+          #898e93 0%,
+          #4f4f4f 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+      #6f6d6d;
+    text-decoration: none;
+    color: white;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  .home-services-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    display: grid;
+  }
+  .services-section-item:hover {
+    color: white;
+  }
+  #services-section-item-1 {
+    grid-column: 1 / 3;
+  }
+  .service-title {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  .services-section-item:hover .services-pic {
+    transform: scale(1.1);
+  }
+  .services-pic {
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+    transition: 0.3s linear;
+    right: 0;
+    bottom: 0px;
+    object-fit: cover;
+  }
+  .service-subtitle {
+    width: 490px;
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .in-service-item-btn {
+    background: #FF4810;
+    border-radius: 50px;
+    padding: 18px 35px;
+    color: #fff;
+    transition: 0.5s ease;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .in-service-item-btn:hover {
+    background-color: #f6f6f5;
+    color: #201f1f;
+  }
+  .title-sertificat {
+    text-align: center;
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 65px;
+}
+.dis-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-item-srf {
+    padding-top: 18px;
+}
+.text-item-srf {
+    text-align: center;
+    width: 220px;
+}
+.item-serf-cont .item-serf {
+    background-color: white;
+    border-radius: 24px;
+    width: 82px;
+    height: 82px;
+    justify-content: center;
+    font-size: 27px;
+    color: #AAADB2;
+    font-weight: 700;
+    margin: auto;
+}
+.item-serf-cont {
+    padding-top: 80px;
+    padding-bottom: 47px;
+}
+.border-item-srf {
+    border-bottom: 4px solid rgba(190, 190, 182, 0.2);
+    width: 140px;
+    padding-bottom: 55px;
+}
+.bg-wht-color {
+    background-color: #fff;
+    border-radius: 24px;
+}
+.pril-ipo-sertf {
+    border-radius: 24px;
+    background-image: url(/assets/images/pril-jusan-phone.png);
+    position: relative;
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.qr-block-text {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 90px;
+}
+.qr-block {
+    margin-left: 35px;
+}
+.qr-block-text {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  margin-bottom: 90px;
+}
+.qr-block-serf {
+    margin-right: 44px;
+    margin-left: 0 !important;
+    width: 230px;
+}
+.qr-block img {
+    width: 100%;
+    border-radius: 10px;
+    border: 30px solid #f6f6f6;
+}
+.text-pril-ipo {
+    padding-bottom: 30px;
+    width: 400px;
+}
+.darkGrey {
+    color: #898D94;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.ip-qr {
+  max-width: 1024px;
+  margin: auto;
+}
+.ip-qr-serf {
+  height: 600px;
+}
+.ji-cool_grey {
+  color: #737C91;
+  text-decoration: none;
+}
+
+  
+  @media (max-width: 1400px) {
+    .services-pic {
+      width: 45%;
+      object-fit: contain;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .service-item-btn {
+      padding: 10px 25px;
+    }
+    .services-pic {
+      height: 60%;
+    }
+    .qr-block-serf {
+      width: 130px;
+  }
+  .qr-block img {
+    border: 20px solid #f6f6f6;
+}
+  }
+  
+  @media (max-width: 992px) {
+    .services-pic {
+      width: 75%;
+    }
+    .service-title {
+      font-size: 30px;
+    }
+    .services-section-item {
+      height: 330px;
+    }
+    .service-subtitle {
+      width: auto;
+      font-size: 18px;
+    line-height: 25px;
+    }
+    .home-services-wrapper {
+      grid-gap: 15px;
+    }
+    .services-pic {
+      height: 50%;
+      width: 55%;
+      object-fit: contain;
+    }
+    .pril-ipo-sertf {
+      background-position: right -300px bottom -20px;
+  }
+  }
+  
+  @media (max-width: 768px) {
+    .services-section-item {
+      padding: 24px;
+      border-radius: 16px;
+    }
+    .service-title {
+      font-size: 26px;
+    }
+    .service-item-btn {
+      font-size: 13px;
+      padding: 8px 20px;
+    }
+    .home-services-wrapper {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    #services-section-item-1 {
+      grid-column: 1 / 2;
+    }
+    .services-pic {
+      width: 80%;
+      height: 170px;
+      position: static;
+      object-fit: cover;
+      object-position: top;
+      margin: 0 auto;
+    }
+    .services-section-item {
+      justify-content: start;
+    }
+    .service-item-btn {
+      margin-top: 18px;
+      margin-bottom: 20px;
+    }
+    .services-section-item {
+      height: auto;
+      padding-bottom: 0px;
+    }
+    #services-section-item-2,
+    #services-section-item-3 {
+      height: auto;
+    }
+    .item-serf-li {
+      padding-bottom: 24px;
+  }
+  .text-item-srf {
+    text-align: left;
+    width: 300px;
+    margin-left: -40px;
+}
+.qr-block-text {
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 37px;
+}
+.qr-block-serf {
+  display: none;
+}
+.item-serf-cont {
+  display: block;
+}
+.item-serf-flex {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+.text-item-srf {
+  padding-left: 68px;
+}
+.border-item-srf {
+  display:none;
+}
+.item-serf-cont .item-serf {
+  margin: inherit;
+}
+.item-serf-cont {
+  padding-bottom: 0;
+}
+  }
+  
+  @media (max-width: 590px) {
+    .pril-ipo-sertf {
+      height: 500px;
+  }
+  .ip-qr-serf {
+    height: 500px;
+  }
+  .qr-block-cont {
+    width: 300px;
+  }
+  .pril-ipo-sertf {
+    background-position: right -300px bottom -120px;
+}
+}
+
+@media (max-width: 500px) {
+  .services-pic {
+    width: 100%;
+    height: 140px;
+  }
+}
+@media (max-width: 320px) {
+  .pril-ipo-sertf {
+    background-position: right -350px bottom -150px;
+}
+}

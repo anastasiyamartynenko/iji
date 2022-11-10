@@ -1,0 +1,16 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+use AmoCRM\{AmoAPI, AmoAPIException};
+use AmoCRM\TokenStorage\TokenStorageException;
+require_once 'vendor/autoload.php';
+$clientId     = 'cb1f3278-b555-437c-800f-d1544a3f5d0d';
+$clientSecret = 'EiTEoQF57QBEC4R8DX2KgcBrWtWJ3kHLWbxI0kee7ogm5KqrVyqAReEEek7HMDPM';
+$authCode     = 'def50200e60ece1e5afa453d6643a4bae1c98264849a71713419aa2b43962fcc97601be3f5991be3de749455069644191a73cee0e307f431f06d690a4fba2b33780a5ff1705776b2dd7296551b4fa4968dccc42372808f52ccf63d35c370f9c19766775c5cbca57670fe7e15b76de9724f739f4299526cc07104cb2b640c2392384cf28bb2ce2186c0f6aab359cdc06d52e54abea820015765c9fea6ddf5689da543abc7a5c52f31149857020b1d8b35bc99109da841f8ee36be86d4511cff970f0d799ec0daf4f174ff143dc958090bf1e53dda4c649661abeac105cd8224a416fafa60ae14c4ed706a976781de23e6cbafc210a45b825612bf9d36106cbe1130cff6fc4087b8d281d50570f0c43626726e4a45223fc0c54f1afeb2f48448c50145c4a7e218bc15892793e9e1992ed176e7dadcb2e45b5a53b515dfc91ade5a5841b980a698acacaf57f04877128aa3f4f84256ccd837a76c03e62042525e3e87d6e919afb6e00354311dc6e00aa2ff1f26d889a5fe44af6bc82a4408cb61574c5841719cc5a91225efa77e4014493651ba16320fd068dd7dc07b7dbf483eee6e148662587e5c6621d8fd80d3306d740d07d8711aea398232e35a842caed0867e94641bedcde3fdfdf8fa8ef864ac2cb976bd7dce484944a6590a';
+$redirectUri  = 'https://ipo.jusaninvest.kz';
+$subdomain    = 'jysaninvest';
+
+// Первичная авторизация
+AmoAPI::oAuth2($subdomain, $clientId, $clientSecret, $redirectUri, $authCode);
+
