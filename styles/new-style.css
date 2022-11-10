@@ -249,6 +249,9 @@
       height: auto;
     }
   }
+  .ji-section-50 {
+    padding-top: 50px;
+  }
   
   @media (max-width: 1200px) {
     .service-item-btn {
