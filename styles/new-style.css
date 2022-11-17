@@ -472,8 +472,8 @@ a:hover .arrow-top {
 .qr-block-cont {
   width: 100%;
 }
-.timer-element  {
-  font-size: 30px;
+.timer-element span {
+  font-size: 30px!important;
 }
 }
 
