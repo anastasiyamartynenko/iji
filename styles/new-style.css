@@ -464,3 +464,15 @@ a:hover .arrow-top {
   width: 350px;
 }
 }
+
+@media (max-width: 320px) {
+  .pril-ipo-sertf {
+    background-image: none;
+  }
+  .qr-block-cont {
+    width: 300px;
+  }
+  .cd_two-numb {
+    margin: 0;
+}
+  }
