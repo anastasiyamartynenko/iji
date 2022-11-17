@@ -116,12 +116,6 @@
     background-position: right;
     background-repeat: no-repeat;
 }
-.qr-block-text {
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 42px;
-    margin-bottom: 40px;
-}
 .qr-block {
     margin-left: 35px;
 }
@@ -129,7 +123,7 @@
   font-weight: 600;
   font-size: 35px;
   line-height: 42px;
-  margin-bottom: 90px;
+  margin-bottom: 40px;
 }
 .jus-content {
   margin-top: 40px;
