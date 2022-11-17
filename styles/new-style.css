@@ -19,6 +19,9 @@
   #timer3c66fe0f14ca6d364a9a01de77d658c8 {
     text-align: left!important;
   }
+  #timer-text-3c66fe0f14ca6d364a9a01de77d658c8-days {
+    padding-top: 7px;
+  }
   .timer-element {
     text-align: center;
   }
@@ -469,7 +472,7 @@ a:hover .arrow-top {
 .qr-block-cont {
   width: 100%;
 }
-.timer-element span{
+.timer-element  {
   font-size: 30px;
 }
 }
