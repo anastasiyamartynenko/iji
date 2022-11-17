@@ -120,7 +120,7 @@
     font-weight: 600;
     font-size: 35px;
     line-height: 42px;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 .qr-block {
     margin-left: 35px;
@@ -130,6 +130,9 @@
   font-size: 35px;
   line-height: 42px;
   margin-bottom: 90px;
+}
+.jus-content {
+  margin-top: 40px;
 }
 .qr-block-serf {
     margin-right: 44px;
@@ -207,6 +210,10 @@
 }
 .content-block__text {
   max-width: 460px;
+}
+.cd_timer .cd-container {
+  margin: 0!important;
+
 }
 .content-block__img {
   position: absolute;
