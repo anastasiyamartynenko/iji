@@ -469,6 +469,9 @@ a:hover .arrow-top {
 .qr-block-cont {
   width: 100%;
 }
+.timer-element span{
+  font-size: 30px;
+}
 }
 
 @media (max-width: 320px) {
