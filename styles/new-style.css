@@ -19,7 +19,7 @@
   #timer3c66fe0f14ca6d364a9a01de77d658c8 {
     text-align: left!important;
   }
-  #timer-text-3c66fe0f14ca6d364a9a01de77d658c8-days {
+  #timer-text-3c66fe0f14ca6d364a9a01de77d658c8-days, #timer-text-3c66fe0f14ca6d364a9a01de77d658c8-hours, #timer-text-3c66fe0f14ca6d364a9a01de77d658c8-minutes, #timer-text-3c66fe0f14ca6d364a9a01de77d658c8-secundes {
     padding-top: 7px;
   }
   .timer-element {
