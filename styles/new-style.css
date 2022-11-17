@@ -446,11 +446,20 @@ a:hover .arrow-top {
     height: 140px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 414px) {
   .pril-ipo-sertf {
     background-position: right -350px bottom -150px;
 }
 .content-block__img {
   top: 75%;
+}
+.ip-qr-serf {
+  height: 650px;
+}
+.pril-ipo-sertf {
+  background-position: right -280px bottom -200px;
+}
+.qr-block-cont {
+  width: 350px;
 }
 }
