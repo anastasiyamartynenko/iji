@@ -131,6 +131,9 @@
 .jus-content {
   margin-top: 40px;
 }
+.jus-content a:hover {
+  color: #FF4810;
+}
 .qr-block-serf {
     margin-right: 44px;
     margin-left: 0 !important;
@@ -447,9 +450,6 @@ a:hover .arrow-top {
   }
 }
 @media (max-width: 414px) {
-  .pril-ipo-sertf {
-    background-position: right -350px bottom -150px;
-}
 .content-block__img {
   top: 75%;
 }
@@ -458,6 +458,7 @@ a:hover .arrow-top {
 }
 .pril-ipo-sertf {
   background-position: right -280px bottom -200px;
+  height: 600px;
 }
 .qr-block-cont {
   width: 350px;
