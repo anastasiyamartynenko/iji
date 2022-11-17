@@ -477,7 +477,7 @@ a:hover .arrow-top {
   line-height: 28px!important;
 }
 #timer3c66fe0f14ca6d364a9a01de77d658c8 {
-  width: 100%!important;
+  min-width: 100%!important;
 }
 }
 
