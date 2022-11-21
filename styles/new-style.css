@@ -135,7 +135,8 @@
   margin-bottom: 40px;
 }
 .title-countdown {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 15px;
 }
 .jus-content {
   margin-top: 40px;
@@ -266,6 +267,16 @@ a:hover .arrow-top {
 .content-block:hover .content-block__img img {
   transition: 0.3s;
   transform: scale(1.05);
+}
+.cd_timer {
+  font-size: 6.4px!important;
+}
+.m-button {
+  margin-top: 20px;
+}
+.ji-button {
+  text-align: center;
+  width: 280px;
 }
   
   @media (max-width: 1400px) {
@@ -478,6 +489,15 @@ a:hover .arrow-top {
 }
 #timer3c66fe0f14ca6d364a9a01de77d658c8 {
   min-width: 100%!important;
+}
+.title-countdown {
+  font-size: 13px;
+}
+.cd_timer {
+  font-size: 6.2px!important;
+}
+.cd_timer .cd-container {
+  margin: auto !important;
 }
 }
 
