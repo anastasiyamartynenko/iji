@@ -558,6 +558,9 @@ a:hover .arrow-top {
   right: 5%;
   top: 65%;
 }
+.cd_timer .cd-container {
+  margin: auto!important;
+}
 }
 
 @media (max-width: 500px) {
