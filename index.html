@@ -37,8 +37,8 @@
                             <li><a href="#benefits">Преимущества</a></li>
                             <li><a href="#how">Как работает IPO</a></li>
                             <li><a href="#forthcoming">Ближайшие IPO</a></li>
-                            <!-- <li><a href="#study">Обучение</a></li> -->
-                            <li><a href="#start">Как начать</a></li>								
+                            <!-- <li><a href="#study">Обучение</a></li> 
+                            <li><a href="#start">Как начать</a></li>	-->							
                             <li><a href="#review">Отзывы</a></li>								
                             <li><a href="#faq">Вопросы</a></li>
                             <li class="dropdown-mobile">
@@ -395,6 +395,27 @@
         </div>
     </section>
 
+    <section class="ji-bg-gray ji-section">
+        <div class="draw-cont">
+            <div class="bg-left"></div>
+            <div class="draw-img__abs-l main-img" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                <img class="" data-depth="0.20" src="assets/images/IMG-BOX-small.png" alt="trophy" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative;">
+            </div>
+            <div class="container">                
+                <div class="text-draw text-center">
+                    <h2 class="dr-title-h2">IPO КазМунайГаз</h2>
+                    <h3 class="dr-title-h3">Розыгрыш iPad <br>каждый день</h3>
+                </div> 
+                <a class="btn-draw" href="#draw"> Принять участие </a>
+                <img src="assets/images/1-mln-tg.png" alt="money"> 
+            </div>
+            <div class="bg-right"></div>
+            <div class="draw-img__abs-r main-img" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                <img class="" data-depth="0.20" src="assets/images/IMG-BOX.png" alt="trophy" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; ">
+            </div>
+        </div>
+    </section>
+
     <!-- success -->
     <section class="ji-bg-gray ji-section">
         <h2 class="ji-title-h2 text-center">Успешные IPO</h2>
@@ -616,7 +637,7 @@
     </section>
 
     <!-- video -->
-    <section class="ji-bg-gray" id="start">
+    <section class="ji-bg-gray" id="draw">
         <div class="container-fluid ji-bg-gray bg-wht-color ">
             <div class="ji-inherit block-how">
                 <div style="padding-right: 40px;">
@@ -1221,5 +1242,25 @@
 <!--Начало кода "proТаймера" (id:46935)-->
 <script src="//cdcs.makedreamprofits.ru/jmdp.js"></script>
 <script>var pt_uid="6375c29f2762b";(function(d,w){n=d.getElementsByTagName("script")[0],s=d.createElement("script"),f=function(){n.parentNode.insertBefore(s,n);};s.type="text/javascript";s.async=true;o=(new Date()).getTimezoneOffset();qs=document.location.search.split("+").join(" ");re=/[?&]?([^=]+)=([^&]*)/g;m="";while(tokens=re.exec(qs))try{if("email"===decodeURIComponent(tokens[1])) m=decodeURIComponent(tokens[2]);}catch(t){}i="";s.src="//cdcs.makedreamprofits.ru/?"+pt_uid+","+o+","+m; if("[object Opera]"===w.opera)d.addEventListener("DomContentLoaded",f,false);else f();})(document, window);</script><!--Конец кода "proТаймера"-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+<script> 
+  let findElements = [...document.getElementsByClassName('main-img')]   
+  let input = document.getElementById('parallax-block');
+  let parallaxParams = {
+      hoverOnly: true,
+      relativeInput: true,
+      inputElement: input,
+      // originX:0,
+      // originY:1
+  }
+  let foundElement = findElements.map( id => {
+    new Parallax(id, parallaxParams)
+  })
+ 
+  
+</script>
+
 </body>
 </html>

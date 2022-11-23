@@ -278,6 +278,85 @@ a:hover .arrow-top {
   text-align: center;
   width: 280px;
 }
+.draw-cont {
+  background-color: #83BFDD;
+  text-align: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.bg-left {
+  background-image: url(/assets/images/tel-1.png);
+  position: relative;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.bg-right {
+  background-image: url(/assets/images/tel-2.png);
+  position: relative;
+    background-position: right top;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.text-draw{
+  padding-top: 94px; 
+  margin-bottom: 32px;
+}
+.dr-title-h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.dr-title-h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  color: #FFFFFF;
+}
+.btn-draw {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FF6700;
+  border: none;
+  padding: 18px 60px;
+  gap: 12px;
+  background: #FFFFFF;
+  border-radius: 22px;
+  transition: 0.3s;
+  display: block;
+  width: 257px;
+  margin: auto;
+}
+.btn-draw:hover {
+  transform: scale(0.9);
+  color: #FF6700;
+}
+.draw-cont img {
+  padding-bottom: 55px;
+   margin-top: 32px;
+}
+.draw-img__abs-l {
+  position: absolute;
+    left: 15%;
+    bottom: 33%;
+    z-index: 3;
+    width: 36%;
+}
+.draw-img__abs-r {
+  position: absolute;
+    right: 1%;
+    bottom: 5%;
+    z-index: 3;
+    width: 36%;
+
+}
+.draw-img__abs-r img {
+    float: right;  
+}
   
   @media (max-width: 1400px) {
     .services-pic {
@@ -424,6 +503,24 @@ a:hover .arrow-top {
 .item-serf-cont {
   padding-bottom: 0;
 }
+.dr-title-h3 {
+  font-size: 28px;
+  line-height: 32px;
+}
+.bg-left, .bg-right {
+  display: none;
+}
+.text-draw {
+  padding-top: 54px;
+}
+.draw-img__abs-r {
+  right: -3%;
+  bottom: -3%;
+  width: 23%;
+}
+.draw-img__abs-l {
+  left: 0;
+}
 
   }
   
@@ -498,6 +595,11 @@ a:hover .arrow-top {
 }
 .cd_timer .cd-container {
   margin: auto !important;
+}
+.draw-img__abs-l {
+  left: -2%;
+  bottom: 50%;
+  width: 22%;
 }
 }
 
