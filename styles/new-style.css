@@ -225,7 +225,7 @@
   max-width: 460px;
 }
 .cd_timer .cd-container {
-  margin: 0!important;
+  margin: 0;
 
 }
 .content-block__img {
@@ -559,7 +559,7 @@ a:hover .arrow-top {
   top: 65%;
 }
 .cd_timer .cd-container {
-  margin: auto!important;
+  margin: auto;
 }
 }
 
@@ -595,9 +595,6 @@ a:hover .arrow-top {
 }
 .cd_timer {
   font-size: 6.2px!important;
-}
-.cd_timer .cd-container {
-  margin: auto !important;
 }
 .draw-img__abs-l {
   left: -2%;
