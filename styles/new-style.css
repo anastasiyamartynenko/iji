@@ -225,7 +225,7 @@
   max-width: 460px;
 }
 .cd_timer .cd-container {
-  margin: 0;
+  float:left;
 
 }
 .content-block__img {
@@ -559,7 +559,7 @@ a:hover .arrow-top {
   top: 65%;
 }
 .cd_timer .cd-container {
-  margin: auto;
+  float:none;
 }
 }
 
