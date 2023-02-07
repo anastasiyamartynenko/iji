@@ -1,5 +1,5 @@
 .services-section-item {
-    border-radius: 24px;
+    border-radius: 12px;
     padding: 35px;
     background: radial-gradient(
           73.2% 135.36% at 74.15% 69.72%,
@@ -115,10 +115,10 @@
 }
 .bg-wht-color {
     background-color: #fff;
-    border-radius: 24px;
+    border-radius: 12px;
 }
 .pril-ipo-sertf {
-    border-radius: 24px;
+    border-radius: 12px;
     background-image: url(/assets/images/pril-jusan-phone.png);
     position: relative;
     height: 600px;
@@ -133,6 +133,9 @@
   font-size: 35px;
   line-height: 42px;
   margin-bottom: 40px;
+}
+.qr-block-cont {
+  padding: 0 20px;
 }
 .title-countdown {
   padding-bottom: 10px;
@@ -168,7 +171,7 @@
   margin-top: 20px;
 }
 .ip-qr {
-  max-width: 1024px;
+  /* max-width: 1024px; */
   margin: auto;
 }
 .ip-qr-serf {
@@ -414,8 +417,7 @@ a:hover .arrow-top {
     margin-bottom: 30px;
   }
   .block-how {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 40px 20px;
     display: block;
   }
   .video {
@@ -429,7 +431,6 @@ a:hover .arrow-top {
   @media (max-width: 768px) {
     .services-section-item {
       padding: 24px;
-      border-radius: 16px;
     }
     .service-title {
       font-size: 26px;
